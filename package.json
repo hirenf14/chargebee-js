@@ -1,5 +1,5 @@
 {
-  "name": "chargebeejs",
+  "name": "chargebee-js",
   "version": "0.1.0",
   "description": "Javascript Client SDK to implement Chargebee on frontend.",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "types": "./types/index.d.ts",
   "exports": "./dist/index.js",
-  "homepage": "https://github.com/hirenf14/chargebeejs#readme",
+  "homepage": "https://github.com/hirenf14/chargebee-js#readme",
   "private": false,
   "keywords": [
     "chargebee",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hirenf14/chargebee.git"
+    "url": "https://github.com/hirenf14/chargebee-js.git"
   },
   "bugs": {
-    "url": "https://github.com/hirenf14/chargebee/issues"
+    "url": "https://github.com/hirenf14/chargebee-js/issues"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
