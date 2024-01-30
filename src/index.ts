@@ -52,3 +52,7 @@ export const initChargebee = (
   const cbInstance = maybeChargebee.init(config);
   return cbInstance;
 };
+
+export default {
+  loadChargebee
+};

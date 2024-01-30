@@ -3,6 +3,8 @@ export type Chargebee = {
   getInstance: () => ChargebeeInstance;
 };
 
+export const loadChargebee: LoadChargebee;
+
 export type ChargebeeInstance = any;
 
 /**
@@ -35,7 +37,7 @@ export type ChargebeeConfig = {
    * 
    * @docs https://www.chargebee.com/docs/2.0/api_keys.html#types-of-api-keys_publishable-key
    */
-  publishableKey?: boolean;
+  publishableKey?: string;
   isItemsModel?: boolean;
   enableRedirectMode?: boolean;
   iframeOnly?: boolean;
