@@ -15,4 +15,8 @@ export type Chargebee = {
    * @returns ChargebeeInstance
    */
   getInstance: () => ChargebeeInstance;
+  /**
+   * Get instance status, if initiated returns true
+   */
+  inited: boolean;
 };

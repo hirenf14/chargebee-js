@@ -4,6 +4,7 @@ import {
   ChargebeeInstance,
   LoadChargebee,
 } from "../types";
+import { EXISTING_INSTANCE_MESSAGE } from "./constants";
 import { loadScript } from "./shared";
 
 let cbPromise: Promise<Chargebee | null> | null;
@@ -48,9 +49,11 @@ export const initChargebee = (
   if (maybeChargebee === null) {
     return null;
   }
-
-  const cbInstance = maybeChargebee.init(config);
-  return cbInstance;
+  if(maybeChargebee.inited) {
+    console.warn(EXISTING_INSTANCE_MESSAGE);
+    return maybeChargebee.getInstance();
+  }
+  return maybeChargebee.init(config);
 };
 
 export default {
