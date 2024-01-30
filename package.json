@@ -18,7 +18,9 @@
     "chargebee",
     "payments",
     "billing",
-    "subscription"
+    "subscription",
+    "frontend",
+    "ui"
   ],
   "scripts": {
     "build": "rollup -c",
