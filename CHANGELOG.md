@@ -1,5 +1,15 @@
 # chargebee-js
 
+## 1.0.2
+
+### Patch Changes
+
+- [#10](https://github.com/hirenf14/chargebee-js/pull/10) [`9a09215`](https://github.com/hirenf14/chargebee-js/commit/9a09215752d10fd5cabbc7e477ab002f2ba66cbe) Thanks [@hirenf14](https://github.com/hirenf14)! - Added React Example of package.
+
+- [#12](https://github.com/hirenf14/chargebee-js/pull/12) [`c94417c`](https://github.com/hirenf14/chargebee-js/commit/c94417ca516a9f6bdd1b5a34ccbdbd3cfc843fe3) Thanks [@hirenf14](https://github.com/hirenf14)! - Removed redundant files
+
+- [#11](https://github.com/hirenf14/chargebee-js/pull/11) [`1d6e0a1`](https://github.com/hirenf14/chargebee-js/commit/1d6e0a1b28ed393f96a1016a02604d140c2e8a64) Thanks [@hirenf14](https://github.com/hirenf14)! - Updated documentation
+
 ## 1.0.1
 
 ### Patch Changes
