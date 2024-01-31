@@ -6,6 +6,8 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/hirenf14/chargebee-js)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/hirenf14/chargebee-js)
 
+**[Example](https://github.com/hirenf14/chargebee-js/tree/main/examples/react-example)**
+| **[CHANGELOG](https://github.com/hirenf14/chargebee-js/blob/main/CHANGELOG.md)**
 
 `chargebee-js` is npm package to include [Chargebee](https://www.chargebee.com/checkout-portal-docs/settingup-api-ref.html#introduction)'s browser script, instead of adding it as script tag in HTML pages for JS frameworks.
 
