@@ -1,5 +1,11 @@
 # chargebee-js
 
+## 1.0.4
+
+### Patch Changes
+
+- [`df300f5`](https://github.com/hirenf14/chargebee-js/commit/df300f544113f4a90b4b3d8c7fca87c4128ee7d1) Thanks [@hirenf14](https://github.com/hirenf14)! - Chargebee instance with Checkout and Hosted page typeDef
+
 ## 1.0.3
 
 ### Patch Changes
