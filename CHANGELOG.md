@@ -1,5 +1,11 @@
 # chargebee-js
 
+## 1.0.3
+
+### Patch Changes
+
+- [#15](https://github.com/hirenf14/chargebee-js/pull/15) [`28f1dd1`](https://github.com/hirenf14/chargebee-js/commit/28f1dd103bf6a1df442bbbfae9d74fe662cdd50a) Thanks [@hirenf14](https://github.com/hirenf14)! - ci: removed example from package
+
 ## 1.0.2
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "chargebee-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Javascript Client SDK to implement Chargebee on frontend.",
   "type": "module",
   "author": {
