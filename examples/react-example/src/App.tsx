@@ -1,16 +1,20 @@
 import { loadChargebee } from "chargebee-js";
 import "./App.css";
 const chargebeePromise = loadChargebee({
-  site: "hf-demo-test",
+  site: "hf-code-test",
   isItemsModel: true,
 });
 function App() {
   const handleCheckout = async () => {
     // Its to ensure that function is called only after CB is initiated.
     const cbInstance = await chargebeePromise;
+    if (!cbInstance) {
+      console.error("Failed to initialize Chargebee");
+      return;
+    }
     const cart = cbInstance.getCart();
     const product = cbInstance.initializeProduct(
-      "cbdemo_sample_plan-inr-monthly",
+      "Comicbook-Demo-USD-Monthly",
       1
     );
     cart.replaceProduct(product);
@@ -30,13 +34,7 @@ function App() {
           alt="comic book"
           className="img-responsive"
         />
-        <button
-          id="checkout"
-          data-cb-item-0="cbdemo_sample_plan-inr-monthly"
-          onClick={() => handleCheckout()}
-        >
-          subscribe
-        </button>
+        <button onClick={() => handleCheckout()}>subscribe</button>
       </div>
       <div className="text-center">
         <h1>Only $6/Month</h1>
