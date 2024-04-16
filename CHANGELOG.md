@@ -1,5 +1,11 @@
 # chargebee-js
 
+## 1.0.5
+
+### Patch Changes
+
+- [#30](https://github.com/hirenf14/chargebee-js/pull/30) [`9f5ced8`](https://github.com/hirenf14/chargebee-js/commit/9f5ced824ed70f245905b61701698b0473f1d710) Thanks [@hirenf14](https://github.com/hirenf14)! - downgraded target to es2019
+
 ## 1.0.4
 
 ### Patch Changes
