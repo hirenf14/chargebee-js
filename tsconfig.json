@@ -8,7 +8,7 @@
     "allowJs": false,
     "removeComments": false,
     "strict": true,
-    "target": "esnext",
+    "target": "es2019",
     "rootDir": "./src",
     "outDir": "./dist",
     "forceConsistentCasingInFileNames": true
