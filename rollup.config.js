@@ -39,14 +39,14 @@ export default {
           file: pkg.main,
           exports: 'named',
           footer: 'module.exports = Object.assign(exports.default, exports);',
-          sourcemap: true
+          sourcemap: false
         },
         {
           format: 'es',
           file: pkg.module,
           plugins: [emitModulePackageFile()],
-          sourcemap: true
+          sourcemap: false
         }
       ],
-      plugins: [typescript({ sourceMap: true })]
+      plugins: [typescript({ sourceMap: false })]
     };
